@@ -1,6 +1,9 @@
 require('babel-core/register');
 require('babel-polyfill');
 // require('../models/network.js')
+import Network from 'models';
+
+
 
 var mongoose = require('mongoose');
 var read = require('read-file');
